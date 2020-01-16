@@ -76,7 +76,8 @@ cherry-blossom theme.")
    `(link-visited       ((t (:foreground ,wisteria :underline t
                              :weight normal))))
    `(default            ((t (:foreground ,foreground :background ,background))))
-   `(cursor             ((t (:foreground ,green :background ,green))))
+   `(cursor             ((t (:foreground ,green :background ,green
+			     :box (:line-width -1 :style released-button)))))
    `(escape-glyph       ((t (:foreground ,yellow :bold t))))
    `(fringe             ((t (:foreground ,foreground :background ,background))))
    `(header-line        ((t (:foreground ,golden-glow
@@ -102,6 +103,7 @@ cherry-blossom theme.")
 
    '(mode-line-buffer-id ((t (:weight bold :box nil))))
 
+   `(line-number-current-line ((t (:inherit cursor :foreground ,background :bold t))))
 
    ;; compilation
    `(compilation-column-face ((t (:foreground ,golden-glow))))

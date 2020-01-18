@@ -104,6 +104,8 @@ cherry-blossom theme.")
    '(mode-line-buffer-id ((t (:weight bold :box nil))))
 
    `(line-number-current-line ((t (:inherit cursor :foreground ,background :bold t))))
+   `(tooltip                  ((t (:inherit default :background ,waikawa-gray
+				   :foreground ,foreground))))
 
    ;; compilation
    `(compilation-column-face ((t (:foreground ,golden-glow))))

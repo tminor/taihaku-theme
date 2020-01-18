@@ -71,37 +71,35 @@ cherry-blossom theme.")
 
    ;; Built-in
    ;; basic coloring
-   '(button             ((t (:underline t))))
-   `(link               ((t (:foreground ,plum :underline t :weight bold))))
-   `(link-visited       ((t (:foreground ,wisteria :underline t
-                             :weight normal))))
-   `(default            ((t (:foreground ,foreground :background ,background))))
-   `(cursor             ((t (:foreground ,green :background ,green
-			     :box (:line-width -1 :style released-button)))))
-   `(escape-glyph       ((t (:foreground ,yellow :bold t))))
-   `(fringe             ((t (:foreground ,foreground :background ,background))))
-   `(header-line        ((t (:foreground ,golden-glow
-                             :background ,background
-                             :box (:line-width -1 :style released-button)))))
-   `(highlight          ((t (:background ,background))))
-   `(success            ((t (:foreground ,green :weight bold))))
-   `(warning            ((t (:foreground ,razzmataz :weight bold))))
+   '(button                   ((t (:underline t))))
+   `(link                     ((t (:foreground ,plum :underline t :weight bold))))
+   `(link-visited             ((t (:foreground ,wisteria :underline t
+                                   :weight normal))))
+   `(default                  ((t (:foreground ,foreground :background ,background))))
+   `(cursor                   ((t (:foreground ,green :background ,green
+			           :box (:line-width -1 :style released-button)))))
+   `(escape-glyph             ((t (:foreground ,yellow :bold t))))
+   `(fringe                   ((t (:foreground ,foreground :background ,background))))
+   `(header-line              ((t (:foreground ,golden-glow
+                                   :background ,background
+                                   :box (:line-width -1 :style released-button)))))
+   `(highlight                ((t (:background ,background))))
+   `(success                  ((t (:foreground ,green :weight bold))))
+   `(warning                  ((t (:foreground ,razzmataz :weight bold))))
 
-   `(mode-line          ((((class color) (min-colors 88))
-                          (:background "#222222" :foreground "#8c86e4"))
-                         (t (:background "#2b283d" :box nil
-                             :foreground "#8c86e4" :height 85))))
-   `(mode-line-inactive ((((class color) (min-colors 88))
-                          (:background "#111111"
-                           :foreground "#000000"))
-			 (t (:weight light :box nil
-			     :background "#202339" :foreground "#000000"
-			     :inherit (mode-line)))))
-   '(mode-line-emphasis ((t (:weight bold))))
-
-   '(mode-line-highlight ((t (:box nil (t (:inherit (highlight)))))))
-
-   '(mode-line-buffer-id ((t (:weight bold :box nil))))
+   `(mode-line                ((((class color) (min-colors 88))
+                                (:background "#222222" :foreground "#8c86e4"))
+                               (t (:background "#2b283d" :box nil
+                                   :foreground "#8c86e4" :height 85))))
+   `(mode-line-inactive       ((((class color) (min-colors 88))
+                                (:background "#111111"
+                                 :foreground "#000000"))
+			       (t (:weight light :box nil
+			           :background "#202339" :foreground "#000000"
+			           :inherit (mode-line)))))
+   '(mode-line-emphasis       ((t (:weight bold))))
+   '(mode-line-highlight      ((t (:box nil (t (:inherit (highlight)))))))
+   '(mode-line-buffer-id      ((t (:weight bold :box nil))))
 
    `(line-number-current-line ((t (:inherit cursor :foreground ,background :bold t))))
    `(tooltip                  ((t (:inherit default :background ,waikawa-gray

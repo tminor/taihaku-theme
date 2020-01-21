@@ -206,6 +206,29 @@ cherry-blossom theme.")
    `(popup-scroll-waikawa-gray-background-face ((t (:background ,background))))
    `(popup-isearch-match ((t (:background ,background :foreground ,foreground))))
 
+   `(cfw:face-sunday ((t (:background ,cod-gray :foreground ,brilliant-rose
+			  :weight bold))))
+   `(cfw:face-today-title ((t (:background ,mulled-wine :foreground ,golden-glow
+			       :weight bold))))
+   `(cfw:face-holiday ((t (:foreground ,purple-heart :background ,cod-gray
+			   :weight bold))))
+   `(cfw:face-default-day ((t (:foreground ,dull-lavendar :background ,cod-gray
+			       :weight bold))))
+   `(cfw:face-select ((t (:background ,golden-glow :foreground ,background))))
+   `(cfw:face-day-title ((t (:background ,cod-gray))))
+   `(cfw:face-header ((t (:foreground ,purple-heart :weight black))))
+   `(cfw:face-title ((t (:height 2.0 :weight bold :foreground ,brilliant-rose))))
+   `(cfw:face-toolbar ((t (:foreground ,cod-gray :background ,cod-gray))))
+   `(cfw:face-toolbar-button-off ((t (:foreground ,turquoise :weight bold
+				      :background ,mine-shaft
+				      :box (:line-width -1
+					    :style released-button)))))
+   `(cfw:face-toolbar-button-on ((t (:foreground ,turquoise
+				     :background ,cod-gray
+				     :box (:line-width -1
+					   :style pressed-button)))))
+   `(cfw:face-grid ((t (:foreground ,foreground))))
+
    ;; company-mode
    `(company-tooltip ((t (:foreground ,foreground :background ,mine-shaft))))
    `(company-tooltip-selection ((t (:foreground ,background :background ,waikawa-gray))))

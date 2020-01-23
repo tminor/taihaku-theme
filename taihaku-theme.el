@@ -590,8 +590,8 @@ cherry-blossom theme.")
    `(org-column-title
      ((t (:background ,background :underline t :weight bold))))
    `(org-mode-line-clock
-     ((t (:foreground ,foreground :background ,razzmataz
-	  :box (:style released-button :line-width -3)))))
+     ((t (:foreground ,dull-lavendar :background ,cod-gray
+	  :box (:color ,razzmataz)))))
    `(org-mode-line-clock-overrun
      ((t (:foreground ,razzmataz :background ,background
 	  :box (:style released-button :line-width -5)))))

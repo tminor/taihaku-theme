@@ -71,7 +71,7 @@ cherry-blossom theme.")
 
    ;; Built-in
    ;; basic coloring
-   '(button                   ((t (:underline t))))
+   `(button                   ((t (:underline t :foreground ,dull-lavendar))))
    `(link                     ((t (:foreground ,plum :underline t :weight bold))))
    `(link-visited             ((t (:foreground ,wisteria :underline t
                                    :weight normal))))
@@ -459,6 +459,9 @@ cherry-blossom theme.")
    `(helm-mu-contacts-address-face ((t (:foreground ,foreground :background ,background))))
    `(helm-mu-contacts-name-face ((t (:foreground ,foreground :background ,background))))
 
+   ;; hi-foo faces
+   `(hi-yellow ((t (:weight black))))
+
    ;; hl-line-mode
    `(hl-line-face ((t (:background ,background))
                    (t :weight bold)))
@@ -556,6 +559,7 @@ cherry-blossom theme.")
    `(org-date ((t (:foreground ,dull-lavendar :underline t))))
    `(org-deadline-announce ((t (:foreground ,razzmataz))))
    `(org-done ((t (:bold t :weight bold :foreground ,green))))
+   `(org-drawer ((t (:foreground ,mulled-wine))))
    `(org-formula ((t (:foreground ,golden-glow))))
    `(org-headline-done ((t (:foreground ,green))))
    `(org-hide ((t (:foreground ,background))))
@@ -571,7 +575,7 @@ cherry-blossom theme.")
    `(org-level-6 ((t (:foreground ,waikawa-gray :slant oblique))))
    `(org-level-7 ((t (:foreground ,dull-lavendar :slant oblique))))
    `(org-level-8 ((t (:foreground ,wisteria :slant oblique))))
-   `(org-link ((t (:foreground ,purple-heart :underline t))))
+   `(org-link ((t (:foreground ,purple-heart :underline t :weight bold))))
    `(org-scheduled ((t (:foreground ,green))))
    `(org-scheduled-previously ((t (:foreground ,razzmataz))))
    `(org-scheduled-today ((t (:foreground ,dull-lavendar))))

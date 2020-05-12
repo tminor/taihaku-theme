@@ -65,7 +65,8 @@ cherry-blossom theme.")
        (brilliant-rose "#F94FA0")
        (plum "#A044A0")
        (mulled-wine "#514B6C")
-       (white "#FFFFFF"))
+       (white "#FFFFFF")
+       (selection "#65A7E2"))
   (custom-theme-set-faces
    'taihaku
 
@@ -424,7 +425,7 @@ cherry-blossom theme.")
           :underline nil
           :weight bold
           :box (:line-width -1 :style released-button)))))
-   `(helm-selection ((t (:background ,green :underline nil))))
+   `(helm-selection ((t (:background ,selection :foreground ,background))))
    `(helm-selection-line ((t (:background ,background))))
    `(helm-visible-mark ((t (:foreground ,background :background ,golden-glow))))
    `(helm-candidate-number ((t (:foreground ,green :background ,background))))

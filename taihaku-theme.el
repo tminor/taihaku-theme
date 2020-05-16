@@ -102,6 +102,7 @@ cherry-blossom theme.")
    '(mode-line-highlight      ((t (:box nil (t (:inherit (highlight)))))))
    '(mode-line-buffer-id      ((t (:weight bold :box nil))))
 
+   `(line-number ((t (:foreground ,mine-shaft))))
    `(line-number-current-line ((t (:bold t))))
    `(tooltip                  ((t (:inherit default
 				   :background ,waikawa-gray
@@ -460,7 +461,7 @@ cherry-blossom theme.")
    `(helm-mu-contacts-name-face ((t (:foreground ,foreground :background ,background))))
 
    ;; hi-foo faces
-   `(hi-yellow ((t (:weight black))))
+   `(hi-yellow ((t (:weight bold))))
 
    ;; hl-line-mode
    `(hl-line-face ((t (:background ,background))
@@ -620,6 +621,14 @@ cherry-blossom theme.")
    `(org-habit-ready-face ((t (:background ,green
 			       :box (:style released-button)))))
    `(org-habit-ready-future-face ((t (:background ,green))))
+
+   ;; org-pomodoro
+   `(org-pomodoro-mode-line ((t (:foreground ,razzmataz :weight bold))))
+   `(org-pomodoro-mode-line-overtime ((t (:background ,razzmataz
+					  :foreground ,background
+					  :weight bold))))
+   `(org-pomodoro-mode-line-break ((t (:foreground ,green
+				       :weight bold))))
 
    ;; outline
    `(outline-1 ((t (:foreground ,razzmataz))))

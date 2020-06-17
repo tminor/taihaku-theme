@@ -94,7 +94,7 @@ cherry-blossom theme.")
                                    :foreground "#8c86e4" :height 85))))
    `(mode-line-inactive       ((((class color) (min-colors 88))
                                 (:background "#111111"
-                                 :foreground "#000000"))
+                                 :foreground ,waikawa-gray))
 			       (t (:weight light :box nil
 			           :background "#202339" :foreground "#000000"
 			           :inherit (mode-line)))))
